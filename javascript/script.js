@@ -38,10 +38,6 @@ async function closeSearch() {
 	}
 }
 
-logo.addEventListener("click", () => {
-	window.location.replace("https://booktimes.github.io/sol/");
-});
-
 search.addEventListener("input", () => {
 	if (!search.value) {
 		autoComplete.style.display = "none";
